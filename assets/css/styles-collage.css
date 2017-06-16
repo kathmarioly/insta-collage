@@ -1,0 +1,25 @@
+body {
+  background-color: white;
+  color:black;
+}
+
+header {
+  margin-top: 20px;
+}
+img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+
+#div1, #div2 {
+   float: left;
+    width: 100px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.imagenes{
+  display: block;
+}
