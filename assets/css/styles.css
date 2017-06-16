@@ -10,7 +10,40 @@ background: linear-gradient(to right, rgba(222,111,60,1) 0%, rgba(155,159,110,1)
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de6f3c', endColorstr='#4ad9ac', GradientType=1 );
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc5420', endColorstr='#08a676', GradientType=1 );
 }
-
+.title-home{
+	color: white;
+	padding: 10px;
+}
 .logo{
 	color: white;
+	padding: 20px;
+	margin-top: 20px;
 }
+
+.facebook{
+	display: inline-block;
+}
+
+i{
+	color: white;
+}
+
+.btn-iniciar-sesion{
+	border: 1px solid white;
+	color: white;
+	padding: 10px;
+
+}
+.olvidar{
+	padding: 10px;
+}
+
+#no{
+	border: 1px solid white;
+	color: white;
+	padding: 10px;
+
+}
+
+
+

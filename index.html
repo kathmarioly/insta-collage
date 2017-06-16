@@ -7,7 +7,7 @@
 	<!--Tipografías-->
 
 	<!--icons-->
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!--bootstrap-->
 
@@ -29,13 +29,13 @@
 <body>
 	
 	<!--primera sección-->
-	<section id="home">
+	<section class="home">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-xs-12 text-center">
                     <p class="title-home">Idioma: español (España)</p>
                     <div class="logo">
-                        <img src="assets/img/instagram-2.svg" alt="" width="400px;">
+                        <img src="assets/img/instagram-2.svg" alt="" width="200px;">
                     </div>
                     <form>
                         <div class="form-group">
@@ -45,14 +45,31 @@
                             <input type="password" class="form-control" id="pwd" placeholder="Password">
                         </div>
                         <div class="button">
-                            <a type="button" href="page.html" class="btn btn-iniciar-sesion">Iniciar Sesión</a>
+                            <a type="button" href="page.html" class="btn btn-iniciar-sesion"><strong>Iniciar Sesión</strong></a>
+                        </div>
+                        <div class="olvidar">
+                        	<p>¿Has olvidado tu información de inicio de sesión? Obtén ayuda.</p>
+                        	<hr>
+                        </div>
+                        <div class="facebook">
+						<i class="fa fa-facebook-official" aria-hidden="true"></i>
+						<p><strong>Iniciar sección con Facebook</strong></p>
+                        	
                         </div>
                     </form>
                 </div>
 
             </div>
         </div>
-	
+   	</section>
+
+	<footer>
+		<div class="sin-cuenta">
+		<div class="col-lg-12 col-md-12 col-xs-12 text-center">
+			<p id="no">¿No tienes una cuenta? Registrate.</p>
+		</div>
+		</div>
+	</footer>
 	
 </body>
 </html>
